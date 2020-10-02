@@ -54,3 +54,13 @@ Try and make it clear and simple to see different boxes inside the rows, bonus p
 You are required to add a localization feature to this page. You are required to add an input and a dropdown and a button with the text 'GO' written inside. The Input should only allow string input. The Dropdown will have `EN` and one other language of your choosing (as an example for dutch we could put `NL`). When a user enters a string and selects a language you will be required to match it against an entry inside a separate json localization file, and the result should be printed out underneath our form.
 
 # Notes
+
+To run the project:
+ 1. clone it
+ 2. navigate to project folder
+ 3. run `yarn`
+ 4. run `yarn serve`
+ 5. open URL from yarn output
+
+ For localization challenge, there are 5 localization keys available for English (EN) and Croatian (HR):
+     `dog`, `car`, `sky`, `door`, `river`.
