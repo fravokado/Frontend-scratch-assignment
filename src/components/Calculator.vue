@@ -1,5 +1,5 @@
 <template>
-  <div class="Calculator">
+  <div class="calculator">
     <div class="row">
       <label>Value 1:</label>
       <input v-model="value1" placeholder="0.00000000" />
@@ -9,7 +9,7 @@
       <input v-model="value2" placeholder="0.00000000" />
     </div>
     <div class="row">
-      <button @click="add">
+      <button @click="add" class="add-button">
         Add
       </button>
       <label>Accumulated result: {{ result }}</label>
@@ -67,7 +67,7 @@ export default class Calculator extends Vue {
   align-items: center;
 }
 
-.row button {
+.add-button {
   width: 80px;
   height: 30px;
 }
